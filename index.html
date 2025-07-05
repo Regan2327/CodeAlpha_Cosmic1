@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CosmoAge - Fun Age & Zodiac Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌌 CosmoAge</h1>
+    <p>Enter your birth date to discover your cosmic age!</p>
+
+    <input type="date" id="dob" />
+    <button onclick="calculateAge()">Calculate</button>
+
+    <div id="results" class="results hidden">
+      <p><strong>Birth Day:</strong> <span id="weekday"></span></p>
+      <p><strong>Zodiac Sign:</strong> <span id="zodiac"></span></p>
+
+      <p><strong>Age:</strong></p>
+      <ul>
+        <li>Years: <span id="years">0</span></li>
+        <li>Months: <span id="months">0</span></li>
+        <li>Days: <span id="days">0</span></li>
+      </ul>
+
+      <p><strong>Planet Ages:</strong></p>
+      <ul>
+        <li>Mercury: <span id="mercury">0</span> years</li>
+        <li>Venus: <span id="venus">0</span> years</li>
+        <li>Mars: <span id="mars">0</span> years</li>
+        <li>Jupiter: <span id="jupiter">0</span> years</li>
+      </ul>
+
+      <p><strong>Fun Fact:</strong> <span id="fact"></span></p>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
