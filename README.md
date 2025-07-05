@@ -16,8 +16,6 @@ CosmoAge is a cosmic-themed web app that calculates your exact age in years, mon
 
 📱 Fully responsive and mobile-friendly
 
-📸 Demo
-Coming Soon – You can deploy it on GitHub Pages or Netlify!
 
 📁 Project Structure
 bash
